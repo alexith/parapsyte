@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Source Code Pro", Monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-color: #000000;
+    /*Black from w3schools */
+}
+
+#main-title {
+    color: #48D1CC;
+    /*MediumTurquoise from w3schools*/
+    text-decoration: none;
+}
+
+.stayBtn {
+    background-color: #9ec7ce;
+    border-radius: 4px;
+    color: grey;
+}
+
+.contactBtn {
+    background-color: #9ec7ce;
+    border-radius: 4px;
+    padding: 4px;
+    color: grey;
+}
+
+
+.btn-item {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 15vh;
+}
+
+#brand-philosophy {
+    color: maroon;
+}
+
+.aboutUs {
+    align-items: center;
+    color: grey;
+    justify-content: center;
+
+}
